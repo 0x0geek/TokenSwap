@@ -43,7 +43,6 @@ describe("TokenSwap", function () {
     let path = [weth.address, usdc.address];
     await uniswapRouter.connect(user).swapExactETHForTokens(0, path, owner.address, deadline, { value: ethToConvert });
 
-    console.log(await usdc.balanceOf(owner.address));
     // Transfer USDC to the user account
     await usdc.transfer(user.address, 1000);
 
