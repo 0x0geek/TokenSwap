@@ -15,7 +15,7 @@ TokenSwap is a smart contract that allows users to swap USDC tokens for USDT tok
 
 1. Install dependencies.
 ```shell
-git clone https://github.com/peterch0829/TokenSwap.git
+git clone https://github.com/0x00dev/TokenSwap.git
 ```
 
 2. Install dependencies.
